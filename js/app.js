@@ -90,4 +90,9 @@ const makeModalWindow = () => {
       $modalWindow.hide();
     }
   });
+
+  $dimmingCover.click((e) => {
+    $dimmingCover.hide();
+    $modalWindow.hide();
+  })
 }

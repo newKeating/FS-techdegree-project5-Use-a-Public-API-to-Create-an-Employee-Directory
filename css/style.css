@@ -55,7 +55,7 @@ div.employee-info p {
   height: 3px;
 }
 
-.modal-window {
+#modal-window {
   position: absolute;
   top: 10%;
   left: 35%;
@@ -89,7 +89,7 @@ div.additional-info p {
 #dimming-cover {
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.4);
